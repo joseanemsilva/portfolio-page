@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="This is a portfolio page to add software development projects.">
+  <meta name="keywords" content="Portfolio Page, About me, Software projects">
+  <meta name="author" content="Joseane Maria da Silva">
+  <title> Joseane Silva Portfolio </title>
+
+  <link rel="stylesheet" href="assets/css/style.css">
+ 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+    <body>
+        <!-- Header - Nav bar -->
+        <header>
+            <nav id="desktop-nav">
+                <div class="logo"> &lt; Joseane Silva &gt;
+                </div>
+                <div>
+                    <ul class="nav-links">
+                        <li><a href="#about"> About </a></li>
+                        <li><a href="#portfolio"> Portfolio </a></li>
+                        <li><a href="#contact"> Contact </a></li>
+                    </ul>
+                    <!-- <i class="fa-solid fa-bars menu-btn"></i> -->
+                </div>
+
+        </header>
+
+        <main>
+            <!-- Landing Page - profile -->
+            <section id="profile">
+                <div class="section__pic-container">
+                    <img src="./assets/img/profile-pic.jpeg" alt="profile picture">
+                </div>
+                <div class="section__text">
+                    <p class="section__text__p1"> Hello, I'm </p>
+                    <h1 class="title"> Joseane Silva </h1>
+                    <p class="section__text__p2"> A Computer Programming Student </p>
+                    <div class="btn-container">
+                        <button class="btn" onclick="window.open('./assets/img/person.png')">
+                            Download CV
+                        </button>
+                        <button class="btn" onclick="location.href='#contact'">
+                            Contact Info
+                        </button>
+                    </div>
+                    <div id="socials-container">
+                        <i class="fa-brands fa-linkedin icon" onclick="location.href='https://linkedin.com/in/joseanemsilva'"></i>
+                        <i class="fa-brands fa-github icon" onclick="location.href='https://github.com/joseanemsilva'"></i>
+                    </div>
+                </div>
+            </section>
+            <!-- About me Section -->
+            <section id="about">
+                <p class="section__text__p1"> Get to Know More </p>
+                <h1 class="title"> About Me </h1>
+                <div class="text-container">
+                    <p>
+                        I graduated in drama and I am a computer programming student at George Brown College discovering the art behind the screen.<br><br>
+
+                        I was always fascinated about art and technology since I was younger, but my journey led me to study Drama. Throughout the program, the space that caught my interest the most was stage technologies: how to manipulate the light and sound systems. When I graduated, I became an arts teacher, but, deep inside, the desire to challenge myself and to learn computer technology was still alive.<br><br>
+
+                        I started my computer science learning process exploring online courses, especially The Odin Project, initially focusing on building  fundamentals, understanding about computer, and how everything is connected inside. I also could build a basic understanding about web development.<br>
+
+                        Driven by  curiosity, the more I dug into this new journey, the more I was got involved with software development ecosystem. To learn more, and build stronger skills, I started the Computer Programming program at George Brown College. It has been important to boost the understanding of computer science, computer logic, basic data management, CLIs, git and GitHub. I’ve been understanding more about web development with HTML and CSS while building an event page, as well as JavaScript to work with logical approach.<br><br>
+
+                        Most importantly, this journey has given me the opportunity to connect the arts knowledge and technology together, using creativity while solving problems and building applications and web pages. Here is some of the technologies I have been working.<br><br>
+                    </p>
+                </div>
+                <div id="technologies">
+                    <h1 class="title"> Technologies </h1>
+                    <div class="technologies-details-container">
+                        <div class="about-containers">
+                            <div class="details-container">
+                                <h2 class="technologies-sub-title"> Web Development </h2>
+                                <div class="article-container">
+                                    <article>
+                                        <i class="fa-solid fa-circle-check icon-tech-section"></i>
+                                        <div>
+                                            <h3> HTML </h3>
+                                            <p> Intermediate </p>
+                                        </div>
+                                    </article>
+                                    <article>
+                                        <i class="fa-solid fa-circle-check icon-tech-section"></i>
+                                        <div>
+                                            <h3> CSS </h3>
+                                            <p> Intermediate </p>
+                                        </div>
+                                    </article>
+                                    <article>
+                                        <i class="fa-solid fa-circle-check icon-tech-section"></i>
+                                        <div>
+                                            <h3> JavaScript </h3>
+                                            <p> Basic </p>
+                                        </div>
+                                    </article>
+                                    <article>
+                                        <i class="fa-solid fa-circle-check icon-tech-section"></i>
+                                        <div>
+                                            <h3> SQL </h3>
+                                            <p> Basic </p>
+                                        </div>
+                                    </article>
+                                    <article>
+                                        <i class="fa-solid fa-circle-check icon-tech-section"></i>
+                                        <div>
+                                            <h3> Computing Logic </h3>
+                                            <p> Intermediate </p>
+                                        </div>
+                                    </article>
+                                    <article>
+                                        <i class="fa-solid fa-circle-check icon-tech-section"></i>
+                                        <div>
+                                            <h3> Git </h3>
+                                            <p> Basic </p>
+                                        </div>
+                                    </article>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a href="#portfolio"><i class="fa-solid fa-angles-down icon arrow"></i></a>
+            </section>
+            <!-- Portfolio Section -->
+            <section id="portfolio">
+                <p class="section__text__p1"> Latest Projects </p>
+                <h1 class="title"> Portfolio </h1>
+                
+                <div class="portfolio-container">
+
+                        <div class="portfolio-box">
+                            <img src="assets/img/portfolio.jpg" alt="">
+                            <div class="portfolio-layer">
+                                <h3> Recipe Page </h3>
+                                <p> Recipe website developed using HTML and CSS </p>
+                                <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                            </div>
+                        </div>
+
+                        <div class="portfolio-box">
+                            <img src="assets/img/portfolio.jpg" alt="">
+                            <div class="portfolio-layer">
+                                <h3> Event Page </h3>
+                                <p> Event page developed as part of the Introduction to web development course </p>
+                                <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                            </div>
+                        </div>
+
+                        <div class="portfolio-box">
+                            <img src="assets/img/portfolio.jpg" alt="">
+                            <div class="portfolio-layer">
+                                <h3> Project Name </h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, laudantium. Culpa?</p>
+                                <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                            </div>
+                        </div>
+
+                        <!-- <div class="portfolio-box">
+                            <img src="assets/img/portfolio.jpg" alt="">
+                            <div class="portfolio-layer">
+                                <h3> Project Name </h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, laudantium. Culpa?</p>
+                                <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                            </div>
+                        </div>
+
+                        <div class="portfolio-box">
+                            <img src="assets/img/portfolio.jpg" alt="">
+                            <div class="portfolio-layer">
+                                <h3> Project Name </h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, laudantium. Culpa?</p>
+                                <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                            </div>
+                        </div>
+
+                        <div class="portfolio-box">
+                            <img src="assets/img/portfolio.jpg" alt="">
+                            <div class="portfolio-layer">
+                                <h3> Project Name </h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, laudantium. Culpa?</p>
+                                <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                            </div>
+                        </div> -->
+                </div>
+                <a href="#contact"><i class="fa-solid fa-angles-down icon arrow"></i></a>
+            </section>
+            <!-- Contact section -->
+            <section id="contact">
+                <p class="section__text__p1"> Get in Touch </p>
+                <h1 class="title"> Contact Me </h1>
+                <div class="contact-info-upper-container">
+                    <div class="contact-info-container">
+                        <i class="fa-solid fa-envelope icon contact-icon"></i>
+                        <p><a href="mailto:joseanesilva.uf@gmail.com"> joseanesilva.uf@gmail.com </a></p>
+                    </div>
+
+                    <div class="contact-info-container">
+                        <i class="fa-brands fa-linkedin icon contact-icon"></i>
+                        <p><a href="https://linkedin.com/in/joseanemsilva"> LinkedIn </a></p>
+                    </div>
+                </div>
+
+            </section>
+        </main>
+        
+        <footer>
+            <nav>
+                <div class="nav-links-container logo"> &lt; &sol; Joseane Silva &gt; </div>
+                    <ul class="nav-links">
+                        <li><a href="#about"> About </a></li>
+                        <li><a href="#portfolio"> Portfolio </a></li>
+                        <li><a href="#contact"> Contact </a></li>
+                    </ul>
+                </div>
+            </nav>
+            <p> Adapted from John Doe's tutorial </p>
+        </footer>
+    </body>
+</html>
